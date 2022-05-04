@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Friends Panel 1`] = `
+Array [
+  <div
+    className="container p-4 mt-5"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-8 shadow-lg p-3 mb-5 bg-body rounded"
+      >
+        <h3
+          className="mt-2 "
+        >
+          Friend Requests
+        </h3>
+        <div
+          className="col-12 col-md-6 "
+        >
+          <div
+            className="d-flex friend-req justify-content-between"
+          >
+            <div
+              className="d-flex align-items-center"
+            >
+              <img
+                alt="..."
+                className="card-img-top small-round-pic  round-img"
+                src="blank-profile.png"
+              />
+              <div
+                className="px-3"
+              >
+                <h5
+                  className="my-1"
+                  data-testid="friendRequestUser"
+                >
+                  testing testing
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  Delhi, India
+                </p>
+              </div>
+            </div>
+            <div
+              className="d-flex align-items-center controls"
+            >
+              <div
+                className="btn btn-primary mx-1"
+                onClick={[Function]}
+              >
+                Confirm
+              </div>
+              <div
+                className="btn btn-outline-danger mx-1"
+                onClick={[Function]}
+              >
+                Delete
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-lg-4 bg-warning"
+      >
+        <div
+          className="border p-2 mb-3 scroll bg-white shadow-lg p-3 bg-body rounded border-0 "
+        >
+          <div
+            className="d-flex justify-content-between"
+          >
+            <h6>
+              My Friend
+            </h6>
+          </div>
+          <div
+            className="text-center"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-8 shadow-lg p-3 mb-5 bg-body rounded"
+      >
+        <h3
+          className="mt-2 mb-4"
+        >
+          Pending Requests
+        </h3>
+        <div
+          className="col "
+        >
+          <div
+            className="d-flex friend-req justify-content-between"
+          >
+            <div
+              className="d-flex align-items-center"
+            >
+              <img
+                alt="..."
+                className="card-img-top small-round-pic  round-img"
+                src="blank-profile.png"
+              />
+              <div
+                className="px-3"
+              >
+                <h5
+                  className="my-1"
+                >
+                  undefined undefined
+                </h5>
+                <p
+                  className="card-text"
+                >
+                  Delhi, India
+                </p>
+              </div>
+            </div>
+            <div
+              className="d-flex align-items-center controls"
+            >
+              <div
+                className="btn btn-outline-danger mx-1"
+                onClick={[Function]}
+              >
+                Delete
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="container p-4"
+  />,
+  <div
+    className="Toastify"
+  />,
+]
+`;

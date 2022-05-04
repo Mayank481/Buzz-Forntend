@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Change login Fields Inputs onChange 1`] = `
+Array [
+  <div
+    className=""
+  >
+    <div
+      className="container "
+    >
+      <div
+        className="d-flex justify-content-center align-items-center viewport-height"
+      >
+        <div
+          className=" d-flex justify-content-center align-items-center row shadow-lg p-3 mb-5 bg-body rounded p-5 w-100 login-panel  "
+        >
+          <div
+            className="col-md-6"
+          >
+            <div
+              className="p-3"
+            >
+              <div
+                className="d-flex justify-content-center"
+              >
+                <img
+                  alt="logo"
+                  className="logo"
+                  src="https://media-exp1.licdn.com/dms/image/C560BAQGjUZbDAenjbw/company-logo_200_200/0/1519888826511?e=2147483647&v=beta&t=sM05vxlPsnwreOwKwVd3W0Jd4RKx9NK7uJrUMVI2Rtw"
+                />
+              </div>
+              <div
+                className="text-center mt-3  font-family fw-bolder"
+              >
+                <h3>
+                  Enter your details and Start
+                </h3>
+              </div>
+              <div
+                className="text-center font-family "
+              >
+                <h3>
+                  your journey with us
+                </h3>
+              </div>
+              <div
+                className="text-center font-family mt-5 text-muted"
+              >
+                Dont't stop you're proud
+              </div>
+              <div
+                className="text-center mt-5"
+              >
+                <button
+                  className="btn btn-lg google-button-clr rounded-pill  bg-transparent font-family font-size fw-bolder "
+                  onClick={[Function]}
+                  title="gAuthBtn"
+                >
+                  Sign In with Google
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-md-6"
+          >
+            <form
+              method="POST"
+            >
+              <div
+                className="p-3"
+              >
+                <h3
+                  className=" text-center font-family fw-bolder"
+                >
+                  Login To Your Account
+                </h3>
+                <input
+                  className="form-control border-0 border-bottom  mt-5"
+                  id="exampleFormControlInput1"
+                  name="userEmail"
+                  onChange={[Function]}
+                  placeholder="TTN Email"
+                  title="email-id"
+                  type="email"
+                />
+                <input
+                  className="form-control border-0 border-bottom   mt-5"
+                  id="exampleFormControlInput1"
+                  name="userPassword"
+                  onChange={[Function]}
+                  placeholder="Password"
+                  title="password"
+                  type="password"
+                />
+                <div
+                  className="text-center d-grid gap-1 mt-5"
+                >
+                  <button
+                    className="btn btn-lg px-5  mt-3 rounded-pill signup-btn-clr font-family fw-bolder font-size"
+                    onClick={[Function]}
+                    title="login-btn"
+                    type="submit"
+                  >
+                    Sign In
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="Toastify"
+  />,
+]
+`;
+
+exports[`should render Login Panel 1`] = `
+Array [
+  <div
+    className=""
+  >
+    <div
+      className="container "
+    >
+      <div
+        className="d-flex justify-content-center align-items-center viewport-height"
+      >
+        <div
+          className=" d-flex justify-content-center align-items-center row shadow-lg p-3 mb-5 bg-body rounded p-5 w-100 login-panel  "
+        >
+          <div
+            className="col-md-6"
+          >
+            <div
+              className="p-3"
+            >
+              <div
+                className="d-flex justify-content-center"
+              >
+                <img
+                  alt="logo"
+                  className="logo"
+                  src="https://media-exp1.licdn.com/dms/image/C560BAQGjUZbDAenjbw/company-logo_200_200/0/1519888826511?e=2147483647&v=beta&t=sM05vxlPsnwreOwKwVd3W0Jd4RKx9NK7uJrUMVI2Rtw"
+                />
+              </div>
+              <div
+                className="text-center mt-3  font-family fw-bolder"
+              >
+                <h3>
+                  Enter your details and Start
+                </h3>
+              </div>
+              <div
+                className="text-center font-family "
+              >
+                <h3>
+                  your journey with us
+                </h3>
+              </div>
+              <div
+                className="text-center font-family mt-5 text-muted"
+              >
+                Dont't stop you're proud
+              </div>
+              <div
+                className="text-center mt-5"
+              >
+                <button
+                  className="btn btn-lg google-button-clr rounded-pill  bg-transparent font-family font-size fw-bolder "
+                  onClick={[Function]}
+                  title="gAuthBtn"
+                >
+                  Sign In with Google
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-md-6"
+          >
+            <form
+              method="POST"
+            >
+              <div
+                className="p-3"
+              >
+                <h3
+                  className=" text-center font-family fw-bolder"
+                >
+                  Login To Your Account
+                </h3>
+                <input
+                  className="form-control border-0 border-bottom  mt-5"
+                  id="exampleFormControlInput1"
+                  name="userEmail"
+                  onChange={[Function]}
+                  placeholder="TTN Email"
+                  title="email-id"
+                  type="email"
+                />
+                <input
+                  className="form-control border-0 border-bottom   mt-5"
+                  id="exampleFormControlInput1"
+                  name="userPassword"
+                  onChange={[Function]}
+                  placeholder="Password"
+                  title="password"
+                  type="password"
+                />
+                <div
+                  className="text-center d-grid gap-1 mt-5"
+                >
+                  <button
+                    className="btn btn-lg px-5  mt-3 rounded-pill signup-btn-clr font-family fw-bolder font-size"
+                    onClick={[Function]}
+                    title="login-btn"
+                    type="submit"
+                  >
+                    Sign In
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="Toastify"
+  />,
+]
+`;

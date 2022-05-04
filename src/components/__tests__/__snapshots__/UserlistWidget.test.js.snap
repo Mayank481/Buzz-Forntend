@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render UserlistWidget Panel 1`] = `
+Array [
+  " ",
+  <div
+    className="border p-2 mb-3 scroll bg-white shadow-lg p-3 bg-body rounded border-0 "
+  >
+    <div
+      className="d-flex justify-content-between"
+    >
+      <h6>
+        Friends Sugesstions
+      </h6>
+    </div>
+    <a
+      className="d-flex mt-2 text-decoration-none "
+      href="/profile/undefined"
+      onClick={[Function]}
+    >
+      <div>
+        <img
+          alt="..."
+          className="card-img-top small-round-pic me-2  round-img"
+          src="blank-profile.png"
+        />
+      </div>
+      <div
+        className="d-flex align-items-center text-dark"
+        data-testid="friendName"
+      >
+        kumar kumar
+      </div>
+    </a>
+  </div>,
+  " ",
+]
+`;

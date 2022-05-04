@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Admin Panel 1`] = `
+<div
+  className="container mt-5"
+>
+  <h1
+    className="text-center"
+  >
+    Admin Panel
+  </h1>
+  <hr />
+  <div
+    className="container "
+  >
+    <div
+      className=" mb-3"
+    >
+      <h4
+        className="text-center"
+        data-testid="reportedPosts"
+      >
+        No any posts
+      </h4>
+    </div>
+  </div>
+</div>
+`;

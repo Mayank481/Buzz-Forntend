@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Feeds Panel 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "backgroundColor": "#F0F2F5",
+      }
+    }
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-3 sticky side-height mt-3 "
+        >
+          <div
+            className="card p-5 shadow-lg p-3 mb-2 bg-body rounded border-0"
+          >
+            <div
+              className="d-flex justify-content-center"
+            >
+              <i
+                className="fa-solid fa-user fa-2x card-img-top small-round-pic  round-img bg-warning d-flex justify-content-center align-items-center"
+              />
+            </div>
+            <div
+              className="card-body"
+            >
+              <h5
+                className="card-title text-center"
+                data-testid="userProName"
+              >
+                noOne noOne
+              </h5>
+              <p
+                className="card-text text-center"
+              >
+                Newly Recruit at TTN 
+              </p>
+              <div
+                className="d-flex justify-content-between mt-4"
+              >
+                <div>
+                  <div
+                    className="text-center"
+                  >
+                    0
+                  </div>
+                  <div>
+                    Friends
+                  </div>
+                </div>
+                <div
+                  className="vr border"
+                />
+                <div>
+                  <div
+                    className="text-center"
+                  >
+                    0
+                  </div>
+                  <div>
+                    Post
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className=""
+          >
+            <div
+              className="card"
+            >
+              <img
+                alt="..."
+                className="card-img-top position-relative "
+                src="https://media-s3-us-east-1.ceros.com/abbott/images/2020/06/18/5003c26bb33afd98eb9dc65ba64e18d0/asset-1.png?imageOpt=1"
+              />
+              <div
+                className="position-abs"
+              >
+                <img
+                  className=" p-5  "
+                  src="https://static1.tothenew.com/blog/wp-content/themes/ttn/images/social-logo.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-md-6   mt-3  position-relative"
+        >
+          <div
+            className="shadow p-3 mb-4 bg-body rounded"
+          >
+            <div
+              className="d-flex align-items-center"
+            >
+              <div
+                className=""
+              >
+                <i
+                  className="fa-solid fa-user fa-2x card-img-top small-round-pic  round-img bg-warning d-flex justify-content-center align-items-center"
+                />
+              </div>
+              <div
+                className="w-100 ms-2 me-2"
+              >
+                <input
+                  className="caption p-2 rounded-pill form-control"
+                  id="comment-box"
+                  onChange={[Function]}
+                  placeholder="What's on your mind noOne noOne ?"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                className="text-center d-flex align-items-center"
+              >
+                <input
+                  className="myFile"
+                  id="file"
+                  onChange={[Function]}
+                  type="file"
+                />
+              </div>
+            </div>
+            <div
+              className="text-center d-grid gap-2 w-100 mt-5 text-center mt-2"
+            >
+              <button
+                className="btn btn-success rounded-pill"
+                onClick={[Function]}
+              >
+                Upload
+              </button>
+            </div>
+          </div>
+          <div
+            className="card p-3 mb-3 shadow p-3 mb-5 bg-body rounded border-0"
+          >
+            <div
+              className="d-flex justify-content-between align-items-center mb-2"
+            >
+              <div
+                className="d-flex align-items-center"
+              >
+                <img
+                  alt="..."
+                  className="card-img-top small-round-pic  round-img"
+                  src="https://images.unsplash.com/photo-1581803118522-7b72a50f7e9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                />
+                <div
+                  className="ms-2 fw-bold"
+                >
+                  Buzz Team
+                </div>
+              </div>
+              <div
+                className="pointer"
+              >
+                <i
+                  className="fa-solid fa-ellipsis "
+                  data-bs-toggle="dropdown"
+                  id="dropdownMenuButton1"
+                />
+              </div>
+            </div>
+            <div
+              className="ms-2 mb-2"
+            />
+            <img
+              alt="..."
+              className="card-img-top rounded-3"
+              src="https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1447&q=80"
+            />
+            <div
+              className="d-flex justify-content-between mt-2"
+            >
+              <div
+                className="d-flex"
+              >
+                <div
+                  className="me-2"
+                >
+                  <i
+                    className="fa-solid fa-thumbs-up bg-primary round-img text-white p-1 me-2"
+                  />
+                  0
+                </div>
+                <div>
+                  <i
+                    className="fa-solid fa-thumbs-down bg-primary round-img text-white p-1 me-2"
+                  />
+                  0
+                </div>
+              </div>
+              <div
+                className="me-1"
+              >
+                0 comments
+              </div>
+            </div>
+            <div
+              className="d-flex justify-content-between mt-3 border-top border-bottom p-2"
+            >
+              <div
+                className="pointer"
+              >
+                <i
+                  className="fa-regular fa-thumbs-up me-2"
+                />
+                Like
+              </div>
+              <div
+                className="pointer"
+              >
+                <i
+                  className="fa-regular fa-thumbs-down me-2"
+                />
+                Dislike
+              </div>
+              <div
+                className="pointer"
+              >
+                <i
+                  className="fa-regular fa-message me-2"
+                />
+                Comment
+              </div>
+            </div>
+          </div>
+          <div
+            className="d-flex mb-4"
+          >
+            <div
+              className="btn btn-outline-dark mx-auto"
+              onClick={[Function]}
+            >
+              Load More
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-md-3 sticky side-height mt-3 "
+        >
+          <div
+            className="border p-2 mb-3 scroll bg-white shadow-lg p-3 bg-body rounded border-0 "
+          >
+            <div
+              className="d-flex justify-content-between"
+            >
+              <h6>
+                My Contacts
+              </h6>
+            </div>
+            <div
+              className="text-center"
+            >
+              You have no friends
+            </div>
+          </div>
+          <div
+            className="border p-2 mb-3 scroll bg-white shadow-lg p-3 bg-body rounded border-0 "
+          >
+            <div
+              className="d-flex justify-content-between"
+            >
+              <h6>
+                Friends Sugesstions
+              </h6>
+            </div>
+            <div
+              className="text-center"
+            >
+              No Suggestions found
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="Toastify"
+  />,
+]
+`;

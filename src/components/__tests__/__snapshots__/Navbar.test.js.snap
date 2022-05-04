@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Navbar Panel 1`] = `
+Array [
+  " ",
+  <nav
+    className="navbar  navbar-light bg-light p-0"
+  >
+    <div
+      className="container-fluid"
+    >
+      <div>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <div
+            id="logo-img"
+          />
+        </a>
+      </div>
+      <div
+        className="d-flex position-relative"
+      >
+        <a
+          className="nav-link text-dark"
+          href="/profile"
+          onClick={[Function]}
+        >
+          <div
+            className="d-flex"
+          >
+            <div
+              className=""
+            >
+              <i
+                className="fa-solid fa-user fa-2x card-img-top small-round-pic  round-img bg-warning d-flex justify-content-center align-items-center"
+              />
+            </div>
+            <div
+              className=" align-items-center ms-2 resp-hide"
+              data-testid="userInfo"
+            >
+              John Doe
+            </div>
+          </div>
+        </a>
+        <div
+          className="d-flex align-items-center ms-2 round-img border rounded-circle icon-bg text-dark p-2"
+        >
+          <a
+            className="text-dark"
+            href="/"
+            onClick={[Function]}
+          >
+            <i
+              className="fa-solid fa-house"
+            />
+          </a>
+        </div>
+        <div
+          className="position-relative d-flex "
+        >
+          <a
+            className="d-flex align-items-center  ms-2 round-img border rounded-circle icon-bg text-dark p-2 "
+            href="/friends"
+            onClick={[Function]}
+          >
+            <i
+              className="fa-solid fa-user"
+            />
+          </a>
+          <div
+            className="round-img bg-danger p-1 text-white incoming position-absolute bottom-50 end-0"
+          >
+            1
+          </div>
+        </div>
+        <div
+          className="d-flex align-items-center ms-2 me-3 round-img border rounded-circle icon-bg text-dark p-2 pointer"
+          onClick={[Function]}
+        >
+          <i
+            className="fa fa-sign-out "
+          />
+        </div>
+      </div>
+    </div>
+  </nav>,
+  " ",
+]
+`;

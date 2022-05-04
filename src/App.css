@@ -1,0 +1,193 @@
+.font-family {
+  font-family: 'Poppins', sans-serif;
+}
+.font-size {
+  font-size: 15px;
+}
+
+.round-img {
+  clip-path: circle();
+}
+.icon-bg {
+  background-color: #e4e5eb;
+}
+.incoming {
+  font-size: 12px;
+}
+.profile-pic {
+  height: 100px;
+  width: 100px;
+}
+.small-round-pic {
+  height: 50px;
+  width: 50px;
+}
+.scroll {
+  height: 50%;
+  overflow-y: auto;
+}
+.scroll-mid {
+  height: 885px;
+  overflow-y: auto;
+}
+.side-height {
+  height: 850px;
+}
+.coverpic {
+  height: 200px;
+  width: 100%;
+}
+.profilepic {
+  width: 150px;
+  height: 150px;
+}
+.size {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+.profile-sidebar {
+  height: 800px;
+}
+.mid {
+  margin-top: -80px;
+  margin-left: 50px;
+}
+
+.friend-req {
+  border: 2px solid #f1f1f1;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px #f0f0f0;
+}
+.post {
+  display: none;
+  visibility: none;
+}
+.circle {
+  clip-path: circle(50% at 50% 50%);
+}
+
+.pointer {
+  cursor: pointer;
+}
+.position-abs {
+  position: absolute;
+  top: 20%;
+}
+.myFile {
+  outline: none;
+  color: transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 50px;
+  transition: 0.5s;
+}
+.myFile::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.myFile::before {
+  content: '\f1c5';
+  font-family: fontAwesome;
+  font-size: 30px;
+  color: green;
+  display: inline-block;
+  user-select: none;
+}
+
+.friend-req {
+  border: 2px solid #f1f1f1;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px #f0f0f0;
+}
+
+.camera {
+  outline: none;
+  color: transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 50px;
+  transition: 0.5s;
+}
+.camera::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.camera::before {
+  content: '\f030';
+  font-family: fontAwesome;
+  font-size: 30px;
+  color: black;
+  display: inline-block;
+  user-select: none;
+  margin-left: 15px;
+}
+.camera:hover {
+  background-color: #f0f2f5;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+}
+.reportedPic {
+  height: 250px;
+  width: 100%;
+}
+.text-comment {
+  max-height: 70px;
+  overflow: hidden;
+}
+
+.seemore {
+  cursor: pointer;
+  color: #69696d;
+  text-align: end;
+  margin: 5px 10px;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.login-panel{
+  height: 75%;
+}
+.viewport-height{
+  height: 100vh;
+}
+#logo-img{
+  background-image: url('https://mma.prnewswire.com/media/728150/TO_THE_NEW_Logo.jpg?p=facebook');
+  height: 70px;
+  width: 110px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.resp-hide{
+  display: flex;
+}
+
+.row-span{
+  grid-row:1/span 2;
+}
+@media screen and (max-width: 700px) {
+  .sticky {
+    display: none;
+    position: static;
+    top: 0;
+  }
+  .viewport-height{
+    height: 100%;
+  }
+  #logo-img{
+    background-image: url('../public/TO_THE_NEW_Logo.jpg');
+    height: 50px;
+    width: 50px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+  }
+  .resp-hide{
+        display: none;
+  }
+ 
+
+}

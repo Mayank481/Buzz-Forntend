@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Post Panel 1`] = `
+<div
+  className="card p-3 mb-3 shadow p-3  bg-body rounded border-0"
+>
+  <div
+    className="d-flex justify-content-between align-items-center mb-2"
+  >
+    <div
+      className="d-flex align-items-center"
+    >
+      <i
+        className="fa-solid fa-user fa-2x card-img-top small-round-pic  round-img text-success d-flex justify-content-center align-items-center"
+        style={
+          Object {
+            "backgroundColor": "#F0F2F5",
+          }
+        }
+      />
+      <div
+        className="ms-2 fw-bold"
+        data-testid="whoPosted"
+      >
+        mahir asrani
+      </div>
+    </div>
+    <div
+      className="pointer"
+    >
+      <i
+        className="fa-solid fa-ellipsis "
+        data-bs-toggle="dropdown"
+        id="dropdownMenuButton1"
+      />
+      <ul
+        aria-labelledby="dropdownMenuButton1"
+        className="dropdown-menu"
+      >
+        <li>
+          <div
+            className="dropdown-item"
+            data-bs-target="#exampleModal"
+            onClick={[Function]}
+          >
+            Report
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="ms-2 mb-2"
+  />
+  <div
+    className="d-flex justify-content-between mt-2"
+  >
+    <div
+      className="d-flex"
+    >
+      <div
+        className="me-2"
+      >
+        <i
+          className="fa-solid fa-thumbs-up bg-primary round-img text-white p-1 me-2"
+        />
+        1
+      </div>
+      <div>
+        <i
+          className="fa-solid fa-thumbs-down bg-danger round-img text-white p-1 me-2"
+        />
+        1
+      </div>
+    </div>
+    <div
+      className="me-1"
+    >
+      1
+       comments
+    </div>
+  </div>
+  <div
+    className="d-flex justify-content-between mt-3 border-top border-bottom p-2"
+  >
+    <div
+      className="pointer"
+      onClick={[Function]}
+    >
+      <i
+        className="fa-regular fa-thumbs-up me-2"
+      />
+      Like
+    </div>
+    <div
+      className="pointer"
+      onClick={[Function]}
+    >
+      <i
+        className="fa-regular fa-thumbs-down me-2"
+      />
+      Dislike
+    </div>
+    <div
+      className="pointer"
+      onClick={[Function]}
+    >
+      <i
+        className="fa-regular fa-message me-2"
+      />
+      Comment
+    </div>
+  </div>
+  <div
+    id=""
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div
+      className=" mt-3 "
+    >
+      <div
+        className="d-flex"
+      >
+        <i
+          className="fa-solid fa-user fa-2x card-img-top small-round-pic  round-img bg-warning d-flex justify-content-center align-items-center"
+        />
+        <div
+          className="form-control d-flex align-items-center border-0 "
+        >
+          <input
+            className="form-control  rounded-pill  p-2"
+            name="message"
+            onChange={[Function]}
+            placeholder="Write a comment..."
+            type="text"
+          />
+        </div>
+        <div
+          className="d-flex align-items-center pointer justify-content-center  rounded-circle border border-success p-2  "
+          onClick={[Function]}
+        >
+           
+          <i
+            className="fa-solid fa-2x fa-paper-plane text-success circle p-2"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="d-flex container bg-light mt-1 align-items-center"
+    >
+      <div
+        className=""
+      >
+        <i
+          className="mt-2 me-2 fa-solid fa-user fa-2x card-img-top small-round-pic  round-img bg-warning d-flex justify-content-center align-items-center"
+        />
+      </div>
+      <div
+        className="text-comment"
+        data-testid="cmnt"
+      />
+    </div>
+    <div
+      className="seemore"
+      onClick={[Function]}
+    >
+      Show More
+    </div>
+  </div>
+</div>
+`;

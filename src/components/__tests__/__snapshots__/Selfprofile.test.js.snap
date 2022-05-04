@@ -1,0 +1,561 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Selfprofile Panel 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "backgroundColor": "#F0F2F5",
+      }
+    }
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-9 bg-white mt-3 p-2 shadow-lg  bg-body rounded"
+        >
+          <div
+            className=""
+          >
+            <div
+              className=""
+            >
+              <img
+                alt="cover"
+                className="coverpic"
+                src="https://images.unsplash.com/photo-1495277493816-4c359911b7f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1165&q=80"
+              />
+            </div>
+            <div
+              className="position-relative profilepic mid"
+            >
+              <div
+                className=""
+              >
+                <i
+                  className="fa-solid fa-user fa-5x profilepic d-flex justify-content-center align-items-center bg-warning"
+                />
+              </div>
+              <div
+                className="position-absolute bottom-0 end-0"
+              >
+                <input
+                  className="camera"
+                  onChange={[Function]}
+                  type="file"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="d-flex "
+          >
+            <div>
+              <h1
+                className="mt-2"
+                data-testid="userProfileName"
+              >
+                Hritik Raushan
+              </h1>
+            </div>
+            <div
+              className="d-flex align-items-center"
+            />
+          </div>
+          <div>
+            <form
+              method="POST"
+            >
+              <div
+                className="row mt-4"
+              >
+                <div
+                  className="col-md-4 "
+                >
+                  <label
+                    htmlFor="floatingInput"
+                  >
+                    First Name
+                  </label>
+                  <input
+                    aria-describedby="emailHelp"
+                    className="form-control mt-2"
+                    id="exampleInputEmail1"
+                    name="firstname"
+                    onChange={[Function]}
+                    placeholder="First Name"
+                    type="text"
+                    value="Hritik"
+                  />
+                </div>
+                <div
+                  className="col-md-4"
+                >
+                  <label
+                    htmlFor="floatingInput"
+                  >
+                    Last Name
+                  </label>
+                  <input
+                    aria-describedby="emailHelp"
+                    className="form-control mt-2"
+                    id="exampleInputEmail1"
+                    name="lastname"
+                    onChange={[Function]}
+                    placeholder="Last Name"
+                    type="text"
+                    value="Raushan"
+                  />
+                </div>
+              </div>
+              <div
+                className="row mt-4"
+              >
+                <div
+                  className="col-md-4"
+                >
+                  <label
+                    htmlFor="floatingInput"
+                  >
+                    Designation
+                  </label>
+                  <br />
+                  <select
+                    className="form-control mt-2"
+                    name="designation"
+                    onChange={[Function]}
+                  >
+                    <option
+                      disabled="true"
+                      selected="true"
+                      value=""
+                    >
+                      Select Designation
+                    </option>
+                    <option
+                      value="Co-Founder"
+                    >
+                      Co-Founder
+                    </option>
+                    <option
+                      value="Co-Founder"
+                    >
+                      Cheif-Technical-Officer
+                    </option>
+                    <option
+                      value="Co-Founder"
+                    >
+                      Cheif-finecial-officer
+                    </option>
+                    <option
+                      value="Software-Developer"
+                    >
+                      Software-Developer
+                    </option>
+                    <option
+                      value="Tech Support"
+                    >
+                      Tech Support
+                    </option>
+                    <option
+                      value="HR-Depatment"
+                    >
+                      HR-Depatment
+                    </option>
+                    <option
+                      value="Account-Department"
+                    >
+                      Account-Department
+                    </option>
+                    <option
+                      value="Sales-Department"
+                    >
+                      Sales-Department
+                    </option>
+                    <option
+                      value="OTT-Department"
+                    >
+                      OTT-Department
+                    </option>
+                  </select>
+                </div>
+                <div
+                  className="col-md-4"
+                >
+                  <label
+                    htmlFor="floatingInput"
+                  >
+                    My Website
+                  </label>
+                  <input
+                    aria-describedby="emailHelp"
+                    className="form-control mt-2"
+                    id="exampleInputEmail1"
+                    name="website"
+                    onChange={[Function]}
+                    placeholder="www.domain.com"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div
+                className="row mt-4"
+              >
+                <div
+                  className="col-md-4"
+                >
+                  <label
+                    htmlFor="floatingInput"
+                  >
+                    Gender
+                  </label>
+                  <div
+                    className="border p-1 mt-2"
+                  >
+                    <input
+                      className="btn-check"
+                      id="Male"
+                      name="gender"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Male"
+                    />
+                    <label
+                      className="btn border-success  w-50 false"
+                      htmlFor="Male"
+                      value="Male"
+                    >
+                      Male
+                    </label>
+                    <input
+                      className="btn-check"
+                      id="Female"
+                      name="gender"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Female"
+                    />
+                    <label
+                      className="btn border-success  w-50 false"
+                      htmlFor="Female"
+                    >
+                      Female
+                    </label>
+                  </div>
+                </div>
+                <div
+                  className="col-md-4"
+                >
+                  <label
+                    htmlFor="floatingInput"
+                  >
+                    Birthday
+                  </label>
+                  <input
+                    aria-describedby="emailHelp"
+                    className="form-control mt-2"
+                    id="exampleInputEmail1"
+                    name="birthday"
+                    onChange={[Function]}
+                    placeholder="website"
+                    type="date"
+                  />
+                </div>
+              </div>
+              <div
+                className="row mt-4"
+              >
+                <div
+                  className="col-md-4"
+                >
+                  <label
+                    htmlFor="floatingInput"
+                  >
+                    City
+                  </label>
+                  <input
+                    aria-describedby="emailHelp"
+                    className="form-control mt-2"
+                    id="exampleInputEmail1"
+                    name="city"
+                    onChange={[Function]}
+                    placeholder="City"
+                    type="text"
+                  />
+                </div>
+                <div
+                  className=" d-flex col-md-4"
+                >
+                  <div
+                    className="col"
+                  >
+                    <label
+                      htmlFor="floatingInput"
+                    >
+                      state
+                    </label>
+                    <select
+                      className="form-control mt-2"
+                      id="state"
+                      name="state"
+                      onChange={[Function]}
+                    >
+                      <option
+                        disabled="true"
+                        selected="true"
+                        value=""
+                      >
+                        Select State
+                      </option>
+                      <option
+                        value="Andaman and Nicobar (UT)"
+                      >
+                        Andaman and Nicobar (UT)
+                      </option>
+                      <option
+                        value="Andhra Pradesh"
+                      >
+                        Andhra Pradesh
+                      </option>
+                      <option
+                        value="Arunachal Pradesh"
+                      >
+                        Arunachal Pradesh
+                      </option>
+                      <option
+                        value="Assam"
+                      >
+                        Assam
+                      </option>
+                      <option
+                        value="Chandigarh (UT)"
+                      >
+                        Chandigarh (UT)
+                      </option>
+                      <option
+                        value="Chhattisgarh"
+                      >
+                        Chhattisgarh
+                      </option>
+                      <option
+                        value="Dadra and Nagar Haveli (UT)"
+                      >
+                        Dadra and Nagar Haveli (UT)
+                      </option>
+                      <option
+                        value="Bihar"
+                      >
+                        Bihar
+                      </option>
+                      <option
+                        value="Daman and Diu (UT)"
+                      >
+                        Daman and Diu (UT)
+                      </option>
+                      <option
+                        value="Delhi"
+                      >
+                        Delhi
+                      </option>
+                      <option
+                        value="Goa"
+                      >
+                        Goa
+                      </option>
+                      <option
+                        value="Gujarat"
+                      >
+                        Gujarat
+                      </option>
+                      <option
+                        value="Haryana"
+                      >
+                        Haryana
+                      </option>
+                      <option
+                        value="Himachal Pradesh"
+                      >
+                        Himachal Pradesh
+                      </option>
+                      <option
+                        value="Jammu and Kashmir"
+                      >
+                        Jammu and Kashmir
+                      </option>
+                      <option
+                        value="Jharkhand"
+                      >
+                        Jharkhand
+                      </option>
+                      <option
+                        value="Karnataka"
+                      >
+                        Karnataka
+                      </option>
+                      <option
+                        value="Kerala"
+                      >
+                        Kerala
+                      </option>
+                      <option
+                        value="Lakshadweep (UT)"
+                      >
+                        Lakshadweep (UT)
+                      </option>
+                      <option
+                        value="Madhya Pradesh"
+                      >
+                        Madhya Pradesh
+                      </option>
+                      <option
+                        value="Maharashtra"
+                      >
+                        Maharashtra
+                      </option>
+                      <option
+                        value="Manipur"
+                      >
+                        Manipur
+                      </option>
+                      <option
+                        value="Meghalaya"
+                      >
+                        Meghalaya
+                      </option>
+                      <option
+                        value="Mizoram"
+                      >
+                        Mizoram
+                      </option>
+                      <option
+                        value="Nagaland"
+                      >
+                        Nagaland
+                      </option>
+                      <option
+                        value="Orissa"
+                      >
+                        Orissa
+                      </option>
+                      <option
+                        value="Puducherry (UT)"
+                      >
+                        Puducherry (UT)
+                      </option>
+                      <option
+                        value="Punjab"
+                      >
+                        Punjab
+                      </option>
+                      <option
+                        value="Rajasthan"
+                      >
+                        Rajasthan
+                      </option>
+                      <option
+                        value="Sikkim"
+                      >
+                        Sikkim
+                      </option>
+                      <option
+                        value="Tamil Nadu"
+                      >
+                        Tamil Nadu
+                      </option>
+                      <option
+                        value="Telangana"
+                      >
+                        Telangana
+                      </option>
+                      <option
+                        value="Tripura"
+                      >
+                        Tripura
+                      </option>
+                      <option
+                        value="Uttar Pradesh"
+                      >
+                        Uttar Pradesh
+                      </option>
+                      <option
+                        value="Uttarakhand"
+                      >
+                        Uttarakhand
+                      </option>
+                      <option
+                        value="West Bengal"
+                      >
+                        West Bengal
+                      </option>
+                    </select>
+                  </div>
+                  <div
+                    className="col"
+                  >
+                    <label
+                      htmlFor="floatingInput"
+                    >
+                      Zip
+                    </label>
+                    <input
+                      aria-describedby="emailHelp"
+                      className="form-control mt-2"
+                      id="exampleInputEmail1"
+                      name="zip"
+                      onChange={[Function]}
+                      placeholder="Zip"
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="d-flex mt-5"
+              >
+                <button
+                  className="btn btn-success me-3"
+                  onClick={[Function]}
+                  type="submit"
+                >
+                  Save
+                </button>
+                <div
+                  className="btn border border-primary "
+                  onClick={[Function]}
+                >
+                  ResetAll
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          className="col-md-3 profile-sidebar mt-3"
+        >
+          <div
+            className="border p-2 mb-3 scroll bg-white shadow-lg p-3 bg-body rounded border-0 "
+          >
+            <div
+              className="d-flex justify-content-between"
+            >
+              <h6>
+                Friends Sugesstion
+              </h6>
+            </div>
+            <div
+              className="text-center"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="Toastify"
+  />,
+]
+`;

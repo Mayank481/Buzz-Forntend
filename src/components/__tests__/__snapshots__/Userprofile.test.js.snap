@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Userprofile Panel 1`] = `
+<div
+  className="container mt-3"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-9 bg-white"
+    >
+      <div
+        className="position-relative"
+      >
+        <img
+          className="coverpic"
+          src="https://images.unsplash.com/photo-1495277493816-4c359911b7f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1165&q=80"
+        />
+        <img
+          className="size"
+          src="blank-profile.png"
+        />
+      </div>
+      <div
+        className="mx-4 "
+      >
+        <h1
+          className="mt-5"
+          data-testid="userfullname"
+        >
+          Unknown User
+        </h1>
+        <p>
+           
+        </p>
+        <p>
+          undefined , undefined , India | undefined  Friend
+        </p>
+        <div
+          className="d-flex"
+        >
+          <div
+            className="btn btn-dark me-3"
+          >
+            Request Pending
+          </div>
+          <a
+            className="btn btn-outline-dark"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Visit Website
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-3 profile-sidebar"
+    >
+      <div
+        className="border p-2 mb-3 scroll bg-white shadow-lg p-3 bg-body rounded border-0 "
+      >
+        <div
+          className="d-flex justify-content-between"
+        >
+          <h6>
+            Friend Suggestions
+          </h6>
+        </div>
+        <div
+          className="text-center"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
