@@ -36,7 +36,7 @@ export default function Feeds(user) {
       pagination.limit,
       setPosts,
       setPageLoading,
-      setLoadDisable
+      setLoadDisable  
     );
   }, [pagination.page]);
 
@@ -119,7 +119,7 @@ export default function Feeds(user) {
                       ? user.user.firstname + ' ' + user.user.lastname
                       : 'Edit Profile'}
                   </h5>
-                  <p className="card-text text-center">Newly Recruit at TTN </p>
+                  <p className="card-text text-center">New User </p>
                   <div className="d-flex justify-content-between mt-4">
                     <div>
                       <div className="text-center">

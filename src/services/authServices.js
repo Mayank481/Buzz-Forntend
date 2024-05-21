@@ -23,8 +23,8 @@ export const postLoginData = async (e, fetchUser, inputs) => {
   if (userEmail === '' || userPassword === '')
     return toast.warning('Please fill the login details');
 
-  if (userEmail.split('@')[1] !== 'tothenew.com')
-    return toast.error('Only ToTheNew email can be used');
+  if (userEmail.split('@')[1] !== 'gmail.com')
+    return toast.error('Enter your email can be used');
 
   axios
     .post(

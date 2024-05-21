@@ -27,7 +27,7 @@ export default function Login({ fetchUser }) {
                     <img
                       className="logo"
                       alt="logo"
-                      src="https://media-exp1.licdn.com/dms/image/C560BAQGjUZbDAenjbw/company-logo_200_200/0/1519888826511?e=2147483647&v=beta&t=sM05vxlPsnwreOwKwVd3W0Jd4RKx9NK7uJrUMVI2Rtw"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmRd67bqBxu0VDK7x-OYekHeNBSDktOs-3QdB9PwoZ-w&s"
                     />
                   </div>
                   <div className="text-center mt-3  font-family fw-bolder">
@@ -62,7 +62,7 @@ export default function Login({ fetchUser }) {
                       className="form-control border-0 border-bottom  mt-5"
                       onChange={(e) => OnInputChange(e)}
                       id="exampleFormControlInput1"
-                      placeholder="TTN Email"
+                      placeholder="Email Address"
                       title="email-id"
                     />
                     <input

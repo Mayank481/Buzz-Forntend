@@ -23,7 +23,7 @@ describe('Change login Fields Inputs', () => {
     const pass_input = screen.queryByTitle('password');
     fireEvent.change(email_input, { target: { value: 'abc@tothenew.com' } });
     fireEvent.change(pass_input, { target: { value: 'abc123@com' } });
-    expect(email_input.value).toBe('abc@tothenew.com');
+    expect(email_input.value).toBe('abcnew.com');
     expect(pass_input.value).toBe('abc123@com');
 
     const component = renderer.create(<Login />)
